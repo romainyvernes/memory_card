@@ -1,0 +1,22 @@
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 15px;
+  margin: 2em 1em;
+}
+
+.poster {
+  height: 300px;
+  transition: transform 0.3s;
+  box-shadow: 8px -5px 10px rgb(0, 0, 0);
+  border: 1px solid white;
+}
+
+.poster:hover {
+  transform: translateY(-10px);
+}
+
+.poster img {
+  height: 100%;
+}
